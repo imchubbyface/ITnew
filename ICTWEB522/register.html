@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/ICTWEB522/unit 3 assessment.css">
+
+  </head>
+<body>
+    <div class="container1">
+        <div class="header">
+            <img class="logo" src="/images/Computer Force logo.jpeg" alt="Computer Force Logo">
+        </div>
+    <div class="menu">
+            <a class="menu_label" href="home.html">Home</a>
+
+            <div class="menu_group">
+              <div class="menu_label">Products</div>
+              <div class="dropdown">
+                <a href="products.html">Product Categories </a>
+                <a href="delivery.html">Delivery Information</a>
+                <a href="clickcollect.html">Click and Collect Information</a>
+                <a href="wishlist.html">Wishlist</a>
+              </div>
+            </div>
+
+            <div class="menu_group">
+              <div class="menu_label">Customer</div>
+              <div class="dropdown">
+                <a href="register.html">Member Registration </a>
+                <a href="login.html">Member Login</a>
+                <a href="memberbenefits.html">Member Benefits</a>
+                <a href="faq.html">FAQ</a>
+              </div>
+            </div>
+            <div class="menu_group">
+              <div class="menu_label">About</div>
+              <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <a href="boardofdirectors.html">Board of Directors</a>
+                <a href="history.html">Company History</a>
+                <a href="awards.html">Company Awards</a>
+                <a href="privacypolicy.html">Pricacy Policy</a>
+                <a href="contact.html">Contact Us</a>
+              </div>
+              </div>
+              <div class="menu_group">
+                <div class="menu_label">News</div>
+                <div class="dropdown">
+                  <a href="events.html">Upcoming Events </a>
+                  <a href="newsandblog.html">IT News/Blog</a>
+                </div>
+              </div>
+            
+            <a class="menu_label" href="sitemap.html">Sitemap</a>
+
+            
+            <form class="search_box" action="">
+              <input type="text" aria-label="search box">
+              <button type="submit">Search</button>
+            </form>
+            
+        </div>
+
+        <div class="main">
+          <h1>Registration Form</h1>
+          <p>Please complete the following form to register for an account on our website.</p>
+          <form class="registerform" action="">
+              <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" id="username" >
+                </div>
+                <div class="form-group">
+                  <label for="emailaddress">Email Address</label>
+                  <input type="email" class="form-control" id="emailaddress" >
+                </div>
+                <div class="form-group">
+                  <label for="password">Passowrd</label>
+                  <input type="password" class="form-control" id="password" >
+                </div>
+                <div class="form-group">
+                  <label for="confirmpassword">Confirm Password</label>
+                  <input type="password" class="form-control" id="confirmpassword" >
+                </div>
+                <div class="form-group">
+                  <label for="firstname">First Name</label>
+                  <input type="text" class="form-control" id="firstname" >
+                </div>
+                <div class="form-group">
+                  <label for="surname">Surname</label>
+                  <input type="text" class="form-control" id="surname" >
+                </div>
+                <div class="form-group">
+                    <p>Gender</p>
+                  <input type="radio" id="male" name="Gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="Gender" value="female">
+<label for="female">female</label><br>
+                </div>
+                
+                <div class="form-group">
+                  <label for="birth">Date of Birth</label>
+                  <input type="date" class="form-control" id="birth" >
+                </div>
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control" id="address" >
+                </div>
+                <div class="form-group">
+                  <label for="suburb">Suburb</label>
+                  <input type="text" class="form-control" id="suburb" >
+                </div>
+                <div class="form-group">
+                  <label for="postcode">Postcode</label>
+                  <input type="number" class="form-control" id="postcode" >
+                </div>
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <select name="state" id="state">
+                  <option value="ACT">ACT</option>
+                  <option value="NSW">NSW</option>
+                  <option value="NT">NT</option>
+                  <option value="QLD">QLD</option>
+                  <option value="SA">SA</option>
+                  <option value="TAS">TAS</option>
+                  <option value="VIC">VIC</option>
+                  <option value="WA">WA</option>                    
+              </select>
+                </div>
+                <div class="form-group">
+                  <label for="phonenumber">Phone Number</label>
+                  <input type="number" class="form-control" id="phonenumber" >
+                </div>
+                <button class="btn btn-secondary mr-5 mt-3" type="reset">Clear</button>
+                <button class="btn btn-danger mr-5 mt-3" type="submit">Register</button>
+
+                
+          </form>
+        </div>
+
+        <div class="aside">
+            <h2>Purchases</h2>
+            <div class="purchasecontainer">
+                <div>0 items</div>
+                <div>Cart sub-total: $0</div>
+                <div class="checkout"><button>Go to Checkout</button></div>
+
+
+            </div>
+            
+        </div>
+        <div class="footer">
+            <p>    &copy; 2022 Yiren Wang
+            </p>
+        </div>
+
+        
+    </div>
+</body>
+</html>
